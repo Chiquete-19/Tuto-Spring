@@ -5,6 +5,9 @@ import java.util.Map;
 
 import com.chiquete.spring.ejemplo_spring.models.Empleados;
 
+
+//Clases DTO Son para transferir datos entre capas, esto quiere
+// decir que no estan conectadas a la base de datos, pero que si pueden implementar logica 
 public class Logica {
      public Empleados crearEmpleado(){
         Map<String,Object>datosEmpleado=new HashMap<>();
