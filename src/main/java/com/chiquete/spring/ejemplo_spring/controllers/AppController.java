@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.chiquete.spring.ejemplo_spring.Logica.Logica;
+import com.chiquete.spring.ejemplo_spring.models.DTO.Logica;
 import com.chiquete.spring.ejemplo_spring.models.Empleados;
 
 

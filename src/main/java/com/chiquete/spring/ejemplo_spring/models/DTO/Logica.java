@@ -1,4 +1,4 @@
-package com.chiquete.spring.ejemplo_spring.Logica;
+package com.chiquete.spring.ejemplo_spring.models.DTO;
 
 import java.util.HashMap;
 import java.util.Map;
