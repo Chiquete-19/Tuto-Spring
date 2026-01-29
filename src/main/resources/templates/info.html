@@ -16,5 +16,26 @@
         <li th:text="${Empleado.sueldo}"></li>
     </ul>
 
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ap. Paterno</th>
+                <th>Ap. Materno</th>
+                <th>Puesto</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="emp : ${empleados}">
+                <td th:text="${emp.nombre}"></td>
+                <td th:text="${emp.apellidoP}"></td>
+                <td th:text="${emp.apellidoM != null ? emp.apellidoM : 'No tiene apellido materno'}"></td>
+                <td th:text="${emp.puesto}"></td>
+                <td th:text="${emp.sueldo}"></td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
