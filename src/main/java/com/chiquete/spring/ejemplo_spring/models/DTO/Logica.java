@@ -13,7 +13,7 @@ public class Logica {
         Map<String,Object>datosEmpleado=new HashMap<>();
         datosEmpleado.put("nombre","Fernando");
         datosEmpleado.put("apellidoP","Chiquete");
-        datosEmpleado.put("apellidoM","V");
+        datosEmpleado.put("apellidoM",null);
         datosEmpleado.put("puesto","Jefe");
         datosEmpleado.put("sueldo",15000.00);
         Empleados emp=new Empleados(datosEmpleado);
